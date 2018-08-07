@@ -1,4 +1,4 @@
-package br.com.saraiva.hello;
+package br.com.saraiva.greeting;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +17,7 @@ public class GreetingRouterTest {
 
     @Test
     public void testHello() {
-        client.get().uri("/hello")
+        client.get().uri("/greeting")
                 .accept(MediaType.TEXT_PLAIN)
                 .exchange()
                 .expectStatus().isOk()

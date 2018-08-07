@@ -1,6 +1,6 @@
 package br.com.saraiva;
 
-import br.com.saraiva.hello.GreetingWebClient;
+import br.com.saraiva.greeting.GreetingWebClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
